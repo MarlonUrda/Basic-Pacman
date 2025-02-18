@@ -6,12 +6,9 @@ import math
 pygame.init()
 
 #Cargar los sprites (sustituye por la ruta absoluta de la carpeta de assets (selecciona la carpeta de assets y presiona: Shift+Alt+C))
+relative_player = r"tu\ruta\definitiva\Basic-Pacman\PyPacman\assets\player_images"
+relative_ghost = r"tu\ruta\definitiva\Basic-Pacman\PyPacman\assets\ghost_images"
 
-relative_player = r"C:\Users\mgur2\OneDrive\Documentos\URU\11trim\Videojuegos\Basic-Pacman\PyPacman\assets\player_images"
-relative_ghost = r"C:\Users\mgur2\OneDrive\Documentos\URU\11trim\Videojuegos\Basic-Pacman\PyPacman\assets\ghost_images"
-
-# relative_player = r"tu\ruta\definitiva\Basic-Pacman\PyPacman\assets\player_images"
-# relative_ghost = r"tu\ruta\definitiva\Basic-Pacman\PyPacman\assets\ghost_images"
 
 #Dimensiones de la pantalla y velocidad de animación
 WIDTH = 900
@@ -47,10 +44,10 @@ blinky_direction = 0
 inky_x = 440
 inky_y = 388
 inky_direction = 2
-pinky_x = 440
+pinky_x = 400
 pinky_y = 438
 pinky_direction = 2
-clyde_x = 440
+clyde_x = 460
 clyde_y = 438
 clyde_direction = 2
 counter = 0
