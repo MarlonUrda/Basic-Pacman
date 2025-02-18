@@ -14,3 +14,10 @@ Antes de poder jugar Pacman, asegúrate de tener descargada la librería de `pyg
 
 ```bash
 pip install pygame
+```
+
+Luego de haber instalado pygame ejecute el comando para entrar al juego:
+
+```bash
+python .\pacman.py
+```
