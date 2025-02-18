@@ -18,9 +18,11 @@ pip install pygame
 Luego en `pacman.py` busca las variables relative_player y relative_ghost, reemplaza el texto con la ruta de dichas carpetas en tu equipo. Esta ruta la obtienes de la siguiente manera:
 
 - Ubica en tu proyecto la carpeta de `assets`.
+
 ![assets_folder](./example/assets.png)
 
 - Luego presiona click derecho sobre la carpeta y dentro del menu selecciona la opcion de `Copy Path` (o `Copiar Ruta`).
+
 ![copy_path](./example/menu.png)
 
 Luego de haber instalado pygame ejecute el comando para entrar al juego:
